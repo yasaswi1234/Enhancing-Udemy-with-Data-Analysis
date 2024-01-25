@@ -23,10 +23,7 @@ data['level'].replace(to_replace='All Levels',value='High Level',inplace=True)
 data
 a=data.sort_values(by=['price'],ascending=True)
 b=data.sort_values(by=['price'],ascending=False)
-a
-b
 c=data.groupby('subject')
-c
 c.get_group('Web Development')
 import numpy as np
 import pandas as pd
